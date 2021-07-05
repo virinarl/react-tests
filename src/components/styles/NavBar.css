@@ -46,3 +46,21 @@
   color: white;
   border-radius: 0 2px 2px 0;
 }
+
+.navbar__Cart {
+  display: flex;
+  align-items: center;
+}
+
+.navbar__CartNumber {
+  align-items: center;
+  background-color: red;
+  border-radius: 100%;
+  color: white;
+  display: flex;
+  font-size: 8px;
+  height: 18px;
+  justify-content: center;
+  text-align: center;
+  width: 18px;
+}
