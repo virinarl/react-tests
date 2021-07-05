@@ -6,13 +6,15 @@ import "./styles/Header.css";
 function Header() {
   return (
     <header className="header">
-      <Link to="/" className="header__link">
-        <h1 className="header__title">
-          <span className="header__specialLetter">E</span>pic
-          <span className="header__specialLetter">B</span>oss
-          <small className="header__titleLittle">.com</small>
-        </h1>
-      </Link>
+      <div className="header__Logo">
+        <Link to="/" className="header__Link">
+          <h1 className="header__Title">
+            <span className="header__SpecialLetter">E</span>pic
+            <span className="header__SpecialLetter">B</span>oss
+            <small className="header__TitleLittle">.com</small>
+          </h1>
+        </Link>
+      </div>
       <NavBar />
     </header>
   );

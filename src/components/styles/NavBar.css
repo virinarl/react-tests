@@ -1,0 +1,29 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  right: 0;
+  width: 50%;
+  padding-top: 0.75%;
+}
+
+.navbar__List {
+  list-style: none;
+  width: 100%;
+  position: absolute;
+  align-items: center;
+}
+
+.navbar__Name {
+  padding: 2%;
+  float: right;
+}
+
+.navbar__Link {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar__Name:hover {
+  font-weight: bold;
+}

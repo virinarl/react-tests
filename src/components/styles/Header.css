@@ -1,23 +1,29 @@
 .header {
   background-color: black;
+  display: flex;
+  width: 100%;
+  align-content: center;
 }
 
-.header__link {
-  text-decoration: none;
-}
-
-.header__title {
-  font-family: "Otomanopee One", sans-serif;
-
-  color: white;
+.header__Logo {
+  width: 30%;
   margin-left: 1%;
   padding-bottom: 1%;
   padding-top: 0.5%;
 }
 
-.header__specialLetter {
+.header__Link {
+  text-decoration: none;
+}
+
+.header__Title {
+  font-family: "Otomanopee One", sans-serif;
+  color: white;
+}
+
+.header__SpecialLetter {
   color: orangered;
 }
-.header__titleLittle {
+.header__TitleLittle {
   font-size: 10px;
 }
