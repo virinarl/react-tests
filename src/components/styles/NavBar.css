@@ -17,6 +17,7 @@
 .navbar__Name {
   padding: 2%;
   float: right;
+  align-content: center;
 }
 
 .navbar__Link {
@@ -26,4 +27,22 @@
 
 .navbar__Name:hover {
   font-weight: bold;
+}
+
+.navbar__Search {
+  display: flex;
+  flex: 1;
+}
+
+.navbar__SearchInput {
+  height: 18px;
+  border: none;
+  border-radius: 2px 0 0 2px;
+}
+
+.navbar_SearchIcon {
+  height: 18px !important;
+  background-color: #cd904d;
+  color: white;
+  border-radius: 0 2px 2px 0;
 }

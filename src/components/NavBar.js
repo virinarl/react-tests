@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
+import SearchIcon from "@material-ui/icons/Search";
 import "./styles/NavBar.css";
 
 function NavBar() {
@@ -11,6 +12,10 @@ function NavBar() {
           <Link to="/cart" className="navbar__Link">
             <ShoppingCartIcon />
           </Link>
+        </li>
+        <li className="navbar__Name navbar__Search">
+          <input type="text" className="navbar__SearchInput" />
+          <SearchIcon className="navbar_SearchIcon" />
         </li>
         <li className="navbar__Name">
           <Link to="/about_us" className="navbar__Link">
