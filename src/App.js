@@ -6,6 +6,7 @@ import Store from "./components/pages/Store";
 import Cart from "./components/pages/Cart";
 import Sales from "./components/pages/Sales";
 import AboutUs from "./components/pages/AboutUs";
+import Footer from "./components/elements/Footer";
 
 function App() {
   return (
@@ -13,22 +14,13 @@ function App() {
       <Router>
         <Header />
         <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>
-          <Route path="/store">
-            <Store />
-          </Route>
-          <Route path="/sales">
-            <Sales />
-          </Route>
-          <Route path="/about_us">
-            <AboutUs />
-          </Route>
-          <Route path="/cart">
-            <Cart />
-          </Route>
+          <Route exact path="/" component={Home} />
+          <Route path="/store" component={Store} />
+          <Route path="/sales" component={Sales} />
+          <Route path="/about_us" component={AboutUs} />
+          <Route path="/cart" component={Cart} />
         </Switch>
+        <Footer />
       </Router>
     </div>
   );

@@ -3,11 +3,7 @@ import Carousel from "../elements/Carousel";
 import "./styles/Home.css";
 
 function Home() {
-  return (
-    <h1>
-      <Carousel />
-    </h1>
-  );
+  return <Carousel />;
 }
 
 export default Home;
