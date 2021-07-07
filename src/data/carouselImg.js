@@ -1,4 +1,4 @@
-import ACValhalla from "../img/banners/Assassins-Creed-Valhalla-Ultimate.png";
+import ACValhalla from "../img/banners/Assassins-Creed-Valhalla-Ultimate.jpg";
 import GOWRagnarok from "../img/banners/GodOfWarBanner.jpg";
 import LDI from "../img/banners/Little-Devil-Inside-e1595766612301.jpg";
 
