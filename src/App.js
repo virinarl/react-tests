@@ -5,8 +5,8 @@ import Home from "./components/pages/Home";
 import Store from "./components/pages/Store";
 import Cart from "./components/pages/Cart";
 import Sales from "./components/pages/Sales";
-import AboutUs from "./components/pages/AboutUs";
 import Footer from "./components/elements/Footer";
+import ProductDetail from "./components/pages/ProductDetail";
 
 function App() {
   return (
@@ -16,9 +16,8 @@ function App() {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/store" component={Store} />
-          <Route path="/store/:id" component={Store} />
+          <Route path="/store/:productId" component={ProductDetail} />
           <Route path="/sales" component={Sales} />
-          <Route path="/about_us" component={AboutUs} />
           <Route path="/cart" component={Cart} />
         </Switch>
         <Footer />

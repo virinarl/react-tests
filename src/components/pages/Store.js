@@ -1,7 +1,6 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import ProductItem from "../elements/ProductItem";
 import { products } from "../../data/products";
-import { useParams } from "react-router-dom";
 import "./styles/Store.css";
 
 function Store() {

@@ -1,0 +1,13 @@
+.productDetail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1f2424;
+}
+
+.productDetail__CoverPic {
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

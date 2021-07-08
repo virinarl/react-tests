@@ -19,11 +19,6 @@ const NavBar = () => {
           <SearchIcon className="navbar_SearchIcon" />
         </li>
         <li className="navbar__Name">
-          <Link to="/about_us" className="navbar__Link">
-            About Us
-          </Link>
-        </li>
-        <li className="navbar__Name">
           <Link to="/sales" className="navbar__Link">
             Sales
           </Link>
