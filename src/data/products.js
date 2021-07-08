@@ -15,7 +15,7 @@ export const products = [
     title: "Back for Blood",
     img: BackForBlood,
     bigImg: BackForBloodBig,
-    price: 60,
+    price: 60.0,
     description: "Loren Ipsum...",
     sinopsis:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a odio ac enim euismod tincidunt. Nam blandit elementum finibus. Quisque eros erat, blandit non gravida sit amet, viverra vel metus. Proin condimentum pulvinar congue. Nulla ligula ipsum, euismod ut ex vitae, iaculis tristique nisl. Etiam eget justo erat. Quisque in ex ac tellus iaculis faucibus. Curabitur consequat pellentesque ante, eu dignissim nulla. Quisque quis nulla metus. Integer in nulla et nibh sagittis sagittis ut in quam. Vestibulum condimentum accumsan neque.",
@@ -33,7 +33,7 @@ export const products = [
     title: "Elden Ring",
     img: EldenRing,
     bigImg: EldenRingBig,
-    price: 30,
+    price: 30.0,
     description: "Loren Ipsum...",
     sinopsis:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a odio ac enim euismod tincidunt. Nam blandit elementum finibus. Quisque eros erat, blandit non gravida sit amet, viverra vel metus. Proin condimentum pulvinar congue. Nulla ligula ipsum, euismod ut ex vitae, iaculis tristique nisl. Etiam eget justo erat. Quisque in ex ac tellus iaculis faucibus. Curabitur consequat pellentesque ante, eu dignissim nulla. Quisque quis nulla metus. Integer in nulla et nibh sagittis sagittis ut in quam. Vestibulum condimentum accumsan neque.",
@@ -51,7 +51,7 @@ export const products = [
     title: "Final Fantasy XVI",
     img: FinalFantasyXVI,
     bigImg: FinalFantasyXVIBig,
-    price: 30,
+    price: 30.0,
     description: "Loren Ipsum...",
     sinopsis:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a odio ac enim euismod tincidunt. Nam blandit elementum finibus. Quisque eros erat, blandit non gravida sit amet, viverra vel metus. Proin condimentum pulvinar congue. Nulla ligula ipsum, euismod ut ex vitae, iaculis tristique nisl. Etiam eget justo erat. Quisque in ex ac tellus iaculis faucibus. Curabitur consequat pellentesque ante, eu dignissim nulla. Quisque quis nulla metus. Integer in nulla et nibh sagittis sagittis ut in quam. Vestibulum condimentum accumsan neque.",
@@ -69,7 +69,7 @@ export const products = [
     title: "God of War Ragnarok",
     img: GOWRagnarok,
     bigImg: GOWRagnarokBig,
-    price: 60,
+    price: 60.0,
     description: "Loren Ipsum...",
     sinopsis:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a odio ac enim euismod tincidunt. Nam blandit elementum finibus. Quisque eros erat, blandit non gravida sit amet, viverra vel metus. Proin condimentum pulvinar congue. Nulla ligula ipsum, euismod ut ex vitae, iaculis tristique nisl. Etiam eget justo erat. Quisque in ex ac tellus iaculis faucibus. Curabitur consequat pellentesque ante, eu dignissim nulla. Quisque quis nulla metus. Integer in nulla et nibh sagittis sagittis ut in quam. Vestibulum condimentum accumsan neque.",
@@ -87,7 +87,7 @@ export const products = [
     title: "Bravely Default II",
     img: BravelyDefaultII,
     bigImg: BravelyDefaultIIBig,
-    price: 60,
+    price: 60.0,
     description: "Loren Ipsum...",
     sinopsis:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a odio ac enim euismod tincidunt. Nam blandit elementum finibus. Quisque eros erat, blandit non gravida sit amet, viverra vel metus. Proin condimentum pulvinar congue. Nulla ligula ipsum, euismod ut ex vitae, iaculis tristique nisl. Etiam eget justo erat. Quisque in ex ac tellus iaculis faucibus. Curabitur consequat pellentesque ante, eu dignissim nulla. Quisque quis nulla metus. Integer in nulla et nibh sagittis sagittis ut in quam. Vestibulum condimentum accumsan neque.",

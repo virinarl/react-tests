@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #1f2424;
+  /* background-color: #1f2424; */
 }
 
 .productDetail__CoverPic {
@@ -10,4 +10,37 @@
   height: 500px;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.productDetail__info {
+  width: 80%;
+  font-family: "Merriweather", serif;
+  margin: auto;
+}
+
+.productDetail__info h1 {
+  text-align: center;
+}
+
+.productDetail__infoContainer {
+  display: flex;
+}
+
+.productDetail__infoContainerLeft {
+  flex: 70%;
+
+  margin-bottom: 1%;
+  padding: 1%;
+}
+
+.productDetail__infoContainerRight {
+  flex: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.productDetail__infoContainerRight p {
+  font-size: 32px;
 }
