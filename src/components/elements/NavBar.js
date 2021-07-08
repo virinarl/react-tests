@@ -7,28 +7,31 @@ import "./styles/NavBar.css";
 const NavBar = () => {
   return (
     <nav className="navbar">
-      <ul className="navbar__List">
-        <li className="navbar__Cart navbar__Name">
-          <Link to="/cart" className="navbar__Link">
-            <ShoppingCartIcon />
-          </Link>
-          <span className="navbar__CartNumber">10</span>
-        </li>
-        <li className="navbar__Name navbar__Search">
-          <input type="text" className="navbar__SearchInput" />
-          <SearchIcon className="navbar_SearchIcon" />
-        </li>
-        <li className="navbar__Name">
-          <Link to="/sales" className="navbar__Link">
-            Sales
-          </Link>
-        </li>
-        <li className="navbar__Name">
-          <Link to="/store" className="navbar__Link">
-            Store
-          </Link>
-        </li>
-      </ul>
+      <div className="navbar__Element">
+        <Link className="navbar__Link" to="/">
+          Home
+        </Link>
+      </div>
+      <div className="navbar__Element">
+        <Link className="navbar__Link" to="/store">
+          Store
+        </Link>
+      </div>
+      <div className="navbar__Element">
+        <Link className="navbar__Link" to="/sales">
+          Sales
+        </Link>
+      </div>
+      <div className="navbar__Search navbar__Element">
+        <input type="text" className="navbar__SearchInput" />
+        <SearchIcon className="navbar_SearchIcon" />
+      </div>
+      <div className="navbar__Cart navbar__Element">
+        <Link className="navbar__Link" to="/cart">
+          <ShoppingCartIcon />
+        </Link>
+        <span className="navbar__CartNumber">10</span>
+      </div>
     </nav>
   );
 };

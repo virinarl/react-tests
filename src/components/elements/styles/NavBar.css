@@ -1,24 +1,12 @@
 .navbar {
   display: flex;
   flex-direction: row;
-  position: absolute;
-  right: 0;
-  width: 50%;
-  padding-top: 0.75%;
-}
-
-.navbar__List {
-  list-style: none;
+  justify-content: space-between;
   width: 100%;
-  position: absolute;
-  align-items: center;
 }
 
-.navbar__Name {
-  padding: 2%;
-  float: right;
-  align-content: center;
-  font-family: "Merriweather", serif;
+.navbar__Element {
+  flex-grow: 1;
 }
 
 .navbar__Link {
@@ -26,13 +14,14 @@
   color: white;
 }
 
-.navbar__Name:hover {
+.navbar__Link:hover {
   font-weight: bold;
 }
 
 .navbar__Search {
   display: flex;
   flex: 1;
+  margin-right: 4%;
 }
 
 .navbar__SearchInput {

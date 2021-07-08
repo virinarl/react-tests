@@ -15,7 +15,9 @@ const Header = () => {
           </h1>
         </Link>
       </div>
-      <NavBar />
+      <div className="header__NavBar">
+        <NavBar />
+      </div>
     </header>
   );
 };

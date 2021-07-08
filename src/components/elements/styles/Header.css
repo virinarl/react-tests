@@ -1,13 +1,13 @@
 .header {
   background-color: black;
   display: flex;
+  flex-direction: row;
   width: 100%;
-  align-content: center;
+  padding-left: 1%;
 }
 
 .header__Logo {
-  width: 30%;
-  margin-left: 1%;
+  flex: 30%;
   padding-bottom: 1%;
   padding-top: 0.5%;
 }
@@ -26,4 +26,10 @@
 }
 .header__TitleLittle {
   font-size: 10px;
+}
+
+.header__NavBar {
+  flex: 50%;
+  display: flex;
+  align-items: center;
 }

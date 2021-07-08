@@ -6,8 +6,8 @@ import "./styles/Home.css";
 function Home() {
   return (
     <>
-      <Carousel />
       <div>
+        <Carousel />
         <Store />
       </div>
     </>
