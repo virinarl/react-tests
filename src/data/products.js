@@ -11,7 +11,7 @@ import BravelyDefaultIIBig from "../img/products/H2x1_NSwitch_BravelyDefaultII-b
 
 export const products = [
   {
-    id: "1",
+    id: 1,
     title: "Back for Blood",
     img: BackForBlood,
     bigImg: BackForBloodBig,

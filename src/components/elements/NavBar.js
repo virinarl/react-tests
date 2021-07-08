@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
 import SearchIcon from "@material-ui/icons/Search";
+import { CartContext } from "../../contexts/CartContext";
 import "./styles/NavBar.css";
 
 const NavBar = () => {
+  const [cart] = useContext(CartContext);
+
   return (
     <nav className="navbar">
       <div className="navbar__Element">
@@ -30,7 +33,7 @@ const NavBar = () => {
         <Link className="navbar__Link" to="/cart">
           <ShoppingCartIcon />
         </Link>
-        <span className="navbar__CartNumber">10</span>
+        <span className="navbar__CartNumber">{cart.length}</span>
       </div>
     </nav>
   );

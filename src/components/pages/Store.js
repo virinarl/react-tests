@@ -13,7 +13,7 @@ function Store() {
             <ProductItem
               url={"/store/" + key}
               key={key}
-              id={products.id}
+              id={product.id}
               img={product.img}
               title={product.title}
               price={product.price}

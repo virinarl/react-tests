@@ -1,8 +1,11 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
+import { CartContext } from "../../contexts/CartContext";
 import "./styles/ItemCounts.css";
 
-function ItemCounts({ initial, id, stock, setCount }) {
+function ItemCounts({ initial, id, stock, setCount, price }) {
   const [counter, setCounter] = useState(initial);
+  const [cart, setCart] = useContext(CartContext);
+
   const addCount = () => {
     setCounter(counter + 1);
   };
@@ -12,10 +15,9 @@ function ItemCounts({ initial, id, stock, setCount }) {
   };
 
   const addToCart = () => {
-    setCount({
-      id: id,
-      cantidad: counter,
-    });
+    const item = { id: id, cantidad: counter, price: price };
+    setCart((curr) => [...cart, item]);
+    setCount(true);
   };
 
   return (

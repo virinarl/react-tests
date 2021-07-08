@@ -17,7 +17,7 @@ function ProductItem(props) {
           <p className="productItem__Price">${props.price}</p>
         </div>
       </Link>
-      <AddToCartButton id={props.id} stock={props.stock} />
+      <AddToCartButton id={props.id} stock={props.stock} price={props.price} />
     </div>
   );
 }
