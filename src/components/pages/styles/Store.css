@@ -1,0 +1,16 @@
+.productsList {
+  width: 60%;
+  margin: auto;
+}
+
+.productList__Title {
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+
+.productList__Container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}

@@ -1,0 +1,20 @@
+.addCart {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 3px;
+  height: 60px;
+}
+
+.addCart__FinishButton {
+  font-family: "Merriweather", serif;
+  border: none;
+  font-size: 12px;
+  background-color: #cbd2d2;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.addCart__FinishButton:hover {
+  font-weight: bold;
+}
