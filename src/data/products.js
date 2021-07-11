@@ -1,20 +1,10 @@
-import BackForBlood from "../img/products/back-for-blood.jpg";
-import BackForBloodBig from "../img/products/back-for-blood-big.jpg";
-import EldenRing from "../img/products/EldenRing.jpg";
-import EldenRingBig from "../img/products/EldenRing-big.jpg";
-import FinalFantasyXVI from "../img/products/finalFantasyXVI.jpg";
-import FinalFantasyXVIBig from "../img/products/finalFantasyXVI-big.jpg";
-import GOWRagnarok from "../img/products/GodOfWarRagnarok.jpg";
-import GOWRagnarokBig from "../img/products/GodOfWarRagnarok-big.jpg";
-import BravelyDefaultII from "../img/products/H2x1_NSwitch_BravelyDefaultII.jpg";
-import BravelyDefaultIIBig from "../img/products/H2x1_NSwitch_BravelyDefaultII-big.jpg";
-
 export const products = [
   {
     id: 1,
     title: "Back for Blood",
-    img: BackForBlood,
-    bigImg: BackForBloodBig,
+    img: "https://res.cloudinary.com/dupc6qt2m/image/upload/v1626029782/EpicBossImg/back-for-blood_xycerj.jpg",
+    bigImg:
+      "https://res.cloudinary.com/dupc6qt2m/image/upload/v1626029782/EpicBossImg/back-for-blood-big_dtt8vt.jpg",
     price: 60.0,
     description: "Loren Ipsum...",
     sinopsis:
@@ -31,8 +21,9 @@ export const products = [
   {
     id: 2,
     title: "Elden Ring",
-    img: EldenRing,
-    bigImg: EldenRingBig,
+    img: "https://res.cloudinary.com/dupc6qt2m/image/upload/v1626029783/EpicBossImg/EldenRing_a6zifj.jpg",
+    bigImg:
+      "https://res.cloudinary.com/dupc6qt2m/image/upload/v1626029782/EpicBossImg/EldenRing-big_w9vuvf.jpg",
     price: 30.0,
     description: "Loren Ipsum...",
     sinopsis:
@@ -49,8 +40,9 @@ export const products = [
   {
     id: 3,
     title: "Final Fantasy XVI",
-    img: FinalFantasyXVI,
-    bigImg: FinalFantasyXVIBig,
+    img: "https://res.cloudinary.com/dupc6qt2m/image/upload/v1626029782/EpicBossImg/finalFantasyXVI_gfewsr.jpg",
+    bigImg:
+      "https://res.cloudinary.com/dupc6qt2m/image/upload/v1626029782/EpicBossImg/finalFantasyXVI-big_gy0api.jpg",
     price: 30.0,
     description: "Loren Ipsum...",
     sinopsis:
@@ -67,8 +59,9 @@ export const products = [
   {
     id: 4,
     title: "God of War Ragnarok",
-    img: GOWRagnarok,
-    bigImg: GOWRagnarokBig,
+    img: "https://res.cloudinary.com/dupc6qt2m/image/upload/v1626029782/EpicBossImg/GodOfWarRagnarok_frclnb.jpg",
+    bigImg:
+      "https://res.cloudinary.com/dupc6qt2m/image/upload/v1626029783/EpicBossImg/GodOfWarRagnarok-big_rzbcwt.jpg",
     price: 60.0,
     description: "Loren Ipsum...",
     sinopsis:
@@ -85,8 +78,9 @@ export const products = [
   {
     id: 5,
     title: "Bravely Default II",
-    img: BravelyDefaultII,
-    bigImg: BravelyDefaultIIBig,
+    img: "https://res.cloudinary.com/dupc6qt2m/image/upload/v1626029783/EpicBossImg/H2x1_NSwitch_BravelyDefaultII_npynrb.jpg",
+    bigImg:
+      "https://res.cloudinary.com/dupc6qt2m/image/upload/v1626029783/EpicBossImg/H2x1_NSwitch_BravelyDefaultII-big_vqdwdo.jpg",
     price: 60.0,
     description: "Loren Ipsum...",
     sinopsis:
