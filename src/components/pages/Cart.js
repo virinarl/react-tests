@@ -1,21 +1,41 @@
-import React, { useContext } from "react";
-import "./styles/Cart.css";
+import React, { useContext, useState, useEffect } from "react";
+import { getFirestore } from "../../firebase";
 import CartItem from "../elements/CartItem";
 import { CartContext } from "../../contexts/CartContext";
-import { products } from "../../data/products";
 import TotalAccount from "../elements/TotalAccount";
+import { CircularProgress } from "@material-ui/core";
+
+import "./styles/Cart.css";
 
 function Cart() {
   const [cart] = useContext(CartContext);
+  const [products, setProducts] = useState([]);
+  const [loading, setLoading] = useState();
+
+  useEffect(() => {
+    setLoading(true);
+    const db = getFirestore();
+    const gamesCollection = db.collection("games");
+    gamesCollection
+      .get()
+      .then((querySnapshot) => {
+        const availableProducts = querySnapshot.docs.map((doc) => doc.data());
+        setProducts(availableProducts);
+      })
+      .finally(() => {
+        setLoading(false);
+      });
+  }, []);
 
   return (
     <div className="cart">
       <div className="cart__Items">
+        {loading && <CircularProgress />}
         {cart.length > 0 ? (
           cart.map((element) => {
             return products.map((product, key) => {
               return (
-                product.id === element.id && (
+                product.identificador === element.id && (
                   <CartItem
                     key={key}
                     img={product.img}
