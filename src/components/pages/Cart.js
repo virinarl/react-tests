@@ -37,6 +37,7 @@ function Cart() {
               return (
                 product.identificador === element.id && (
                   <CartItem
+                    id={product.identificador}
                     key={key}
                     img={product.img}
                     title={product.title}

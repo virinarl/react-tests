@@ -1,4 +1,5 @@
 import React from "react";
+import DeleteButton from "./DeleteButton";
 
 function CartItem(props) {
   return (
@@ -12,6 +13,7 @@ function CartItem(props) {
         <p className="productItem__Price">Precio por unidad: ${props.price}</p>
         <p>Cantidad: {props.qty}</p>
         <p>Total: ${props.total}</p>
+        <DeleteButton id={props.id} />
       </div>
     </div>
   );
