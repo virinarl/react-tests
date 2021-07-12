@@ -39,6 +39,7 @@ function Sales() {
               title={product.title}
               price={product.price}
               description={product.description}
+              stock={product.stock}
             />
           );
         })}

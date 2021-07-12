@@ -15,8 +15,17 @@ function ItemCounts({ initial, id, stock, setCount, price }) {
   };
 
   const addToCart = () => {
-    const item = { id: id, cantidad: counter, price: price };
-    setCart((curr) => [...cart, item]);
+    if (!cart.some((el) => el.id === id)) {
+      const item = { id: id, cantidad: counter, price: price };
+      setCart((curr) => [...cart, item]);
+    } else if (
+      cart[cart.findIndex((item) => item.id === id)].cantidad + counter <=
+      stock
+    ) {
+      cart[cart.findIndex((item) => item.id === id)].cantidad =
+        cart[cart.findIndex((item) => item.id === id)].cantidad + counter;
+    }
+
     setCount(true);
   };
 
