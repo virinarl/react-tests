@@ -7,10 +7,11 @@ import "./styles/DeleteButton.css";
 function DeleteButton({ id }) {
   const [cart, setCart] = useContext(CartContext);
 
-  function check(id, array) {
-    let newCart = array.filter((prueba) => prueba.id !== id);
+  function check(id, cartItems) {
+    let newCart = cartItems.filter((item) => item.id !== id);
     setCart(newCart);
   }
+
   return (
     <div>
       <button className="deleteButton" onClick={() => check(id, cart)}>
