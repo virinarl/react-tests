@@ -1,16 +1,19 @@
 import React, { useContext } from "react";
 import { CartContext } from "../../contexts/CartContext";
+import BuyButton from "./BuyButton";
 
 function TotalAccount() {
-  const [cart] = useContext(CartContext);
-  let total = 0;
+  const [cart, setTotal] = useContext(CartContext);
+
+  let subTotal = 0;
   cart.forEach((element) => {
-    total = total + element.cantidad * element.price;
+    subTotal = subTotal + element.cantidad * element.price;
   });
 
   return (
     <div>
-      <h3>El total de la cuenta es: USD${total}</h3>
+      <h3>El total de la cuenta es: USD${subTotal}</h3>
+      <BuyButton onClick={() => setTotal(subTotal)} />
     </div>
   );
 }

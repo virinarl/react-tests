@@ -1,0 +1,20 @@
+.checkOutForm {
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 1%;
+}
+
+.checkOutForm__PersonalInfo,
+.checkOutForm__PaymentInfo {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+input {
+  padding: 1%;
+  margin: 1%;
+}
