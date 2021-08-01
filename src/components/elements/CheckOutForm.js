@@ -79,14 +79,14 @@ function CheckOutForm(props) {
             <input
               type="text"
               name="name"
-              value={name}
+              autoComplete="off"
               placeholder="Nombre"
               onChange={handleChange}
             />
             <input
               type="text"
               name="lastName"
-              value={lastName}
+              autoComplete="off"
               placeholder="Apellido"
               onChange={handleChange}
             />
@@ -94,7 +94,7 @@ function CheckOutForm(props) {
               type="mail"
               name="email"
               id="email"
-              value={email}
+              autoComplete="off"
               placeholder="Email"
               onChange={handleChange}
             />
@@ -104,7 +104,7 @@ function CheckOutForm(props) {
             <input
               type="text"
               name="card"
-              value={card}
+              autoComplete="off"
               placeholder="Tarjeta"
               onChange={handleChange}
             />
